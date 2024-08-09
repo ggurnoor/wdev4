@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Car Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+    <header id="main-header">
+        <h1 id="store-title">The Luxe Drive</h1>
+        <nav>
+            <ul id="nav-buttons">
+                <li><button onclick="showSection('home')">Home</button></li>
+                <li><button onclick="showSection('cars')">Cars</button></li>
+                <li><button onclick="showSection('contact')">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                <h2><span class="welcome">Welcome</span> to The Luxe Drive</h2>
+                <p>Your destination for the finest luxury cars.</p>
+            </div>
+            <div id="intro-content">
+                <p>
+                    Thank you for visiting our Luxury Car Store. We are extremely honored that you have come to our showroom, where your satisfaction is our first priority. Our dealership is fully certified, assuring that each vehicle in our inventory fulfills the highest quality and performance criteria. We take great pride in offering amazing service from the moment you walk through our doors until you drive away in your ideal car.
+                </p>
+                <p>
+                    At Luxury Car Store, we recognize that luxury is more than simply a label; it is an experience. That is why we strive to be your one-stop shop for all things luxury automobiles. Whether you're looking for the latest models or rare, high-end vehicles, our broad collection will impress. Our professional team is ready to help you every step of the way, making the car-buying process easy, pleasurable, and really luxurious.
+                </p>
+            </div>
+            <section class="why-choose-us">
+                <h3>Why Choose Us?</h3>
+                <div class="features">
+                    <div class="feature financing">
+                        <h3><img src="images/finance-logo.jpg" alt="Financing Logo" class="feature-logo"> Financing Made Easy</h3>
+                        <p>We provide bank financing options for our customers, collaborating with all major local banks and credit unions. Whether you have good credit or bad credit, we're here to help you get the car you desire today!</p>
+                    </div>
+                    <div class="feature service">    
+                        <h3> <img src="images/services-logo.jpeg" alt="Service Logo" class="feature-logo"> Service</h3>
+                        <p>Our service department is committed to maintaining your car's peak performance with routine maintenance and repairs, ensuring your safety on the road for many years ahead.</p>
+                    </div>
+                    <div class="feature detailing">
+                        <h3> <img src="images/OIP.jpeg" alt="Detailing Logo" class="feature-logo"> Detailing</h3>
+                        <p>We pride ourselves on attention to detail. Whether it's a new car or a used one, our detailing service ensures it meets the highest standards of luxury.</p>
+                    </div>
+                </div>
+            </section>          
+        </section>
+
+        <section id="cars" class="section">
+            <h2>Our Range</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <div class="car-image">
+                        <img src="images/range_rover.jpg" alt="Range Rover Evoque">
+                    </div>
+                    <div class="car-details">
+                        <h3>Range Rover Evoque</h3>
+                        <p>The Range Rover Evoque is a subcompact luxury SUV known for its stylish design and advanced technology. It offers a comfortable ride with a premium interior and off-road capability.</p>
+                        <a href="#" class="learn-more">Learn More <span>➤</span></a>
+                    </div>
+                </div>
+        
+                <div class="car-item">
+                    <div class="car-image">
+                        <img src="images/Rubicon.jpeg" alt="Rubicon">
+                    </div>
+                    <div class="car-details">
+                        <h3>Rubicon</h3>
+                        <p>The Jeep Wrangler Rubicon is a rugged, off-road-focused SUV known for its exceptional trail capabilities and iconic design. It features advanced 4x4 systems and durable construction.</p>
+                        <a href="#" class="learn-more">Learn More <span>➤</span></a>
+                    </div>
+                </div>
+        
+                <div class="car-item">
+                    <div class="car-image">
+                        <img src="images/g-wagon.jpg" alt="G Wagon">
+                    </div>
+                    <div class="car-details">
+                        <h3>G Wagon</h3>
+                        <p>The Mercedes-Benz G-Class, commonly known as the G-Wagon, is a luxury SUV renowned for its rugged, boxy design and exceptional off-road capabilities. It combines a high-end interior with advanced technology and robust performance.</p>
+                        <a href="#" class="learn-more">Learn More <span>➤</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="first-name">First Name*</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" placeholder="email@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" placeholder="Phone number">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Comment</label>
+                        <textarea id="message" name="message" placeholder="Enter your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Luxe Drive. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

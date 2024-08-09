@@ -7,7 +7,7 @@ body {
 }
 
 #main-header {
-    background-image: url('images/header.jpg');
+    background-image: url('header.jpg');
     background-size: cover;
     background-position: center;
     color: rgba(123, 2, 2, 0.788);
@@ -86,7 +86,7 @@ main {
 
 
 .why-choose-us {
-    background-image: url('images/section.jpg');
+    background-image: url('section.jpg');
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
